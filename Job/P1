@@ -1,0 +1,19 @@
+class P1{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int [] arr = sc.nextInt();
+        rev(arr);
+    }
+
+    public static void rev(int [] arr){
+        int start = 0;
+        int end = arr.length - 1;
+        while(start < end){
+            int tem = arr[Start];
+            arr[start] = arr[end];
+            arr[end] = tem;
+            start++;
+            end--;
+        }
+    }
+}
